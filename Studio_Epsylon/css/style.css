@@ -1,0 +1,131 @@
+body {
+        height: 100vh;
+        margin: 0;
+      }
+      .bgvint1 {
+        background-image: url(/Projets/Studio_Epsylon/img/reelmci.jpg);
+        height: 100%;
+      }
+      .bgstudio_a {
+        background-image: url(/Projets/Studio_Epsylon/img/PeakStudios-814_2500px.avif);
+        height: 60%;
+      }
+      .bgstudio_b {
+        background-image: url(/Projets/Studio_Epsylon/img/Kontrollrum+2.webp);
+        height: 100%;
+      }
+      .caption {
+        width: 100%;
+        text-align: center;
+        padding: 100px;
+        box-sizing: border-box;
+      }
+      .caption span.border {
+        background-color: black;
+        opacity: 0.7;
+        color: antiquewhite;
+        padding: 10px;
+        font-size: 35px;
+        letter-spacing: 10px;
+        font-family: tahoma, Geneva, sans serif;
+      }
+      .presentation {
+        padding: 50px 80px;
+        text-align: justify;
+        background-color: antiquewhite;
+        color: rgb(101, 95, 94);
+        font-family: arial, sans serif;
+      }
+      .bgvint1,
+      .bgstudio_a,
+      .bgstudio_b {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+      #menu {
+        background-color: antiquewhite;
+        text-align: center;
+      }
+      .nav {
+        display: inline-block;
+        margin: 0 auto;
+        vertical-align: top;
+        padding: 20px;
+      }
+      .lien_menu {
+        font-family: arial, Sans-Serif;
+        color: #cccccc;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 10px 20px;
+        display: block;
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: black;
+        opacity: 0.9;
+      }
+      .lien_menu:hover {
+        color: black;
+        background-color: antiquewhite;
+        opacity: 0.7;
+        border: 1px antiquewhite solid;;
+      }
+      .presentation {
+        padding-bottom: 100px;
+      }
+      p {
+        margin-left: 15%;
+        margin-right: 15%;
+        text-align: justify;
+      }
+      .bgrack1 {
+        background-image: url(../img/Recording_Mixing_Mastering_Studio_Peak_Studios.avif);
+        height: 300px;
+        background-position: bottom;
+      }
+      .contacts h2 {
+        margin-top: 0;
+      }
+
+      form {
+            background-color: #989393;
+            padding: 20px;
+            max-width: 500px;
+            margin: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            
+        }
+        label {
+            display: block;
+            margin-top: 15px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #0066cc;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #004999;
+        }
+        .contacts {
+          background-color: antiquewhite;
+        }
+        *, *::before, *::after {
+    box-sizing: border-box;
+  }
