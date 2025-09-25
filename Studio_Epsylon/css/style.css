@@ -1,131 +1,222 @@
 body {
-        height: 100vh;
-        margin: 0;
-      }
-      .bgvint1 {
-        background-image: url(/Projets/Studio_Epsylon/img/reelmci.jpg);
-        height: 100%;
-      }
-      .bgstudio_a {
-        background-image: url(/Projets/Studio_Epsylon/img/PeakStudios-814_2500px.avif);
-        height: 60%;
-      }
-      .bgstudio_b {
-        background-image: url(/Projets/Studio_Epsylon/img/Kontrollrum+2.webp);
-        height: 100%;
-      }
-      .caption {
-        width: 100%;
-        text-align: center;
-        padding: 100px;
-        box-sizing: border-box;
-      }
-      .caption span.border {
-        background-color: black;
-        opacity: 0.7;
-        color: antiquewhite;
-        padding: 10px;
-        font-size: 35px;
-        letter-spacing: 10px;
-        font-family: tahoma, Geneva, sans serif;
-      }
-      .presentation {
-        padding: 50px 80px;
-        text-align: justify;
-        background-color: antiquewhite;
-        color: rgb(101, 95, 94);
-        font-family: arial, sans serif;
-      }
-      .bgvint1,
-      .bgstudio_a,
-      .bgstudio_b {
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-      }
-      #menu {
-        background-color: antiquewhite;
-        text-align: center;
-      }
-      .nav {
-        display: inline-block;
-        margin: 0 auto;
-        vertical-align: top;
-        padding: 20px;
-      }
-      .lien_menu {
-        font-family: arial, Sans-Serif;
-        color: #cccccc;
-        font-size: 20px;
-        font-weight: bold;
-        text-decoration: none;
-        padding: 10px 20px;
-        display: block;
-        border: 1px solid black;
-        border-radius: 5px;
-        background-color: black;
-        opacity: 0.9;
-      }
-      .lien_menu:hover {
-        color: black;
-        background-color: antiquewhite;
-        opacity: 0.7;
-        border: 1px antiquewhite solid;;
-      }
-      .presentation {
-        padding-bottom: 100px;
-      }
-      p {
-        margin-left: 15%;
-        margin-right: 15%;
-        text-align: justify;
-      }
-      .bgrack1 {
-        background-image: url(../img/Recording_Mixing_Mastering_Studio_Peak_Studios.avif);
-        height: 300px;
-        background-position: bottom;
-      }
-      .contacts h2 {
-        margin-top: 0;
-      }
+  
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
 
-      form {
-            background-color: #989393;
-            padding: 20px;
-            max-width: 500px;
-            margin: auto;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            
-        }
-        label {
-            display: block;
-            margin-top: 15px;
-        }
-        input, textarea {
-            width: 100%;
-            padding: 10px;
-            margin-top: 5px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            resize: vertical;
-        }
-        button {
-            margin-top: 20px;
-            padding: 10px 20px;
-            background-color: #0066cc;
-            color: #fff;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        button:hover {
-            background-color: #004999;
-        }
-        .contacts {
-          background-color: antiquewhite;
-        }
-        *, *::before, *::after {
-    box-sizing: border-box;
+.bgvint1 {
+  background-image: url(/Projets/Studio_Epsylon/img/reelmci.jpg);
+  height: 100vh;
+}
+.bgstudio_a {
+  background-image: url(/Projets/Studio_Epsylon/img/PeakStudios-814_2500px.avif);
+  height: 60vh; 
+}
+.bgstudio_b {
+  background-image: url(/Projets/Studio_Epsylon/img/Kontrollrum+2.webp);
+  height: 100vh; 
+}
+.caption {
+  width: 100%;
+  text-align: center;
+  padding: 10vh 1.2rem;
+  box-sizing: border-box;
+}
+.caption span.border {
+  background-color: black;
+  opacity: 0.7;
+  color: antiquewhite;
+  padding: 0.6rem;
+  font-size: 2.2rem;
+  letter-spacing: 0.6rem;
+  font-family: tahoma, Geneva, sans-serif;
+}
+.presentation {
+  padding: 5% 5%;
+  text-align: justify;
+  background-color: antiquewhite;
+  color:#655f5e;
+  font-family: arial, sans-serif;
+  flex: 1;
+}
+.bgvint1,
+.bgstudio_a,
+.bgstudio_b {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#menu {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  gap: 1rem;               
+  padding: 1rem 0;
+  flex-wrap: wrap;}     
+
+.nav {
+  padding: 0;
+}
+
+.lien_menu {
+  font-family: arial, sans-serif;
+  color: #cccccc;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: black;
+  opacity: 0.9;
+  transition: background-color 0.3s, color 0.3s, opacity 0.3s;
+}
+
+.lien_menu:hover {
+  color: black;
+  background-color: antiquewhite;
+  opacity: 0.7;
+  border-color: antiquewhite;
+}
+
+.lien_menu:focus {
+  outline: 3px solid #0066cc; /* ou une couleur qui ressort */
+  outline-offset: 2px;
+}
+h1 {
+  font-family: tahoma, Geneva, sans-serif;
+  font-size: 2.2rem;
+  letter-spacing: 0.6rem;
+  text-align: center;
+  padding: 0.6rem 0;  
+  color: rgba(0, 0, 0, 0.3);
+  background-color: antiquewhite;
+  margin: 0;
+}
+
+p {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1.2rem;
+  text-align: justify;
+}
+
+.bgrack1 {
+  background-image: url(../img/Recording_Mixing_Mastering_Studio_Peak_Studios.avif);
+  height: 300px;
+  background-position: bottom;  
+}
+.contacts h2 {
+  margin-top: 0;
+}
+
+form {
+  background-color: #989393;
+  padding: 1.2rem;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label {
+  display: block;
+  margin-top: 15px;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+button {
+  margin-top: 1.2rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #0066cc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #004999;
+}
+.contacts {
+  background-color: antiquewhite;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.footer {
+  background-color: antiquewhite;
+  padding: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper {
+  min-height: 100vh;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .presentation {
+    padding: 2rem 1.2rem 10%;
   }
+
+  .caption {
+    padding: 15vh 0.9rem;
+  }
+
+  .caption span.border {
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .nav {
+    padding: 0.6rem;
+  }
+
+  #menu {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .lien_menu {
+    font-size: 1rem;
+    padding: 0.5rem 0.7rem;
+  }
+
+  p {
+    padding: 0 0.9rem;
+  }
+
+  .bgvint1,
+  .bgstudio_a,
+  .bgstudio_b {
+    background-attachment: scroll;
+  }
+}
+@media (min-width: 1440px) {
+  p {
+    max-width: 1200px;
+  }
+  .caption span.border {
+    font-size: 2.5rem;
+  }
+}
